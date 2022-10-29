@@ -1,5 +1,5 @@
 /*
-FUNCTIONS: quiz.cpp
+VECTORS: quiz.cpp
 Complete the areas marked 'TO-DO' and run the following command in your
 terminal: make test
 

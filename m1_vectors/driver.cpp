@@ -1,5 +1,5 @@
 /*
-FUNCTIONS: driver.cpp
+VECTORS: driver.cpp
 Do not touch this file. It is purely for the sake of running the code.
 */
 
@@ -9,11 +9,11 @@ Do not touch this file. It is purely for the sake of running the code.
 If you are testing the program, run the command 'make', first.
 After the program has (hopefully) compiled, run the following:
 
-./driver -min -v1
-This will compute the minimum element within vector 1.
+./driver 5 -e
+This will print out (if done correctly) 0, 1, 2, 3, 4, 5 all separated by newlines
 
-./driver -max -v3
-This will compute the maximum element within vector 3.
+./driver 10 -ne
+This will print out 0 -> 10 all separated by newlines
 */
 
 #define RED     "\033[1;31m"

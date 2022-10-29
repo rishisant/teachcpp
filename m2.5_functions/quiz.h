@@ -1,5 +1,5 @@
 /*
-VECTORS: quiz.h
+FUNCTIONS: quiz.h
 Do not touch this file. It is purely for the sake of pre-defining the functions.
 */
 
@@ -13,6 +13,8 @@ Do not touch this file. It is purely for the sake of pre-defining the functions.
 
 using std::cout, std::endl, std::vector, std::string;
 
-void populate_vector(vector<int>& blank, int range);
+vector<char> to_char_vector(string& str);
+
+bool is_palindrome(vector<char> vec);
 
 #endif
