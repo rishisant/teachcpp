@@ -7,6 +7,14 @@ Created by __rishisant__.
 3. Click on the folder of the module name. For example, __Module 2__ is located in the folder path _"./m2_functions/"_
 4. Only edit the file _quiz.cpp_! 
 
+### Modules Offered
+Here are a list of modules offered:
+* Module 1: Vectors
+* Module 2: Functions Pt. 1
+* Module 2.5: Functions Pt. 2
+* Module 3: Pointers Pt. 1
+* Module 3.5: Pointers Pt. 2
+* Module 4: Advanced Pointers
 
 ### How To Debug Your Code / Looking For Outputs
 1. You can debug your code through looking at console output by doing the following:
