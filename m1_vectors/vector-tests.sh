@@ -24,18 +24,6 @@ SCORE=$(($SCORE+5))
 
 sleep 0.5 # Just to delay the program
 
-# Empty Vec
-# echo "$(./driver 5 -e)"
-# echo "0\n1\n2\n3\n4\n5"
-# [ "$(./driver 5 -e)" == "0
-# 1
-# 2
-# 3
-# 4
-# 5" ]; echo "$?"
-
-sleep 0.5 # Just to delay the program
-
 echo "${YELLOW}Empty Vec & Small Range${NC}"
 if [ "$(./driver 5 -e)" == "0
 1
