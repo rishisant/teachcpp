@@ -4,7 +4,7 @@
 Module 2 employs your knowledge through testing your ability to code and debug functions. You are given a string and you must create a vector of chars and then return a boolean value. Return 'true' if the string is a palindrome, and 'false' otherwise.
 
 ### Proposed Solution
-We only need one loop each for both function.
+We only need one loop each for both functions.
 
 ### Solution with Code
 Here is the implementation for the vectorizing function.
