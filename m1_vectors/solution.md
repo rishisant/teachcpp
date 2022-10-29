@@ -9,6 +9,7 @@ We can use two loops. A while loop and a for loop will be used in order to attem
 ### Solution with Code
 There are two ways to empty the vector; first, we can use the built in function `vec.empty()`:
 ```
+cpp
 void populate_vector(vector<int>& blank, int range) {
     while (!blank.empty()) blank.pop_back(); // While the vector is not empty, we will pop all elements
 
@@ -22,6 +23,7 @@ void populate_vector(vector<int>& blank, int range) {
 
 The other way would be to use `vec.size()`:
 ```
+cpp
 void populate_vector(vector<int>& blank, int range) {
     while (blank.size() > 0) blank.pop_back(); // While the vector has a size > 0, we pop the elements.
 

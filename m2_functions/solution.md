@@ -9,6 +9,7 @@ There are two potential ways to iterate through a vector in C++. You can either:
 ### Solution with Code
 The first way uses the built-in vector iterator. 
 ```
+cpp
 int min_elem(vector<int> vec) {
     int min = vec[0]; // Declare min value as the first element of the vector
     for (int val : vec) { // Using built in vector iterator
@@ -20,6 +21,7 @@ int min_elem(vector<int> vec) {
 ```
 The second way uses the manual index-accessing method. 
 ```
+cpp
 int max_elem(vector<int> vec) {
     int max = vec[0]; // Declare max value as the first element of the vector
     for (size_t i = 0; i < vec.size(); i++) {
