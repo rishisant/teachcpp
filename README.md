@@ -10,20 +10,20 @@ Created by __rishisant__.
 
 ### How To Debug Your Code / Looking For Outputs
 1. You can debug your code through looking at console output by doing the following:
-```
+```sh
 cd <insert directory of module here>
 make
 ./name_of_module <params>
 ```
 For example, in __Module 2: Functions Pt. 1__, assuming you are within the folder directory, run the following commands (specified in the driver.cpp file):
-```
+```sh
 make
 ./driver <-min or -max> <-v1 or -v2 or -v3 or -v4 or -v5>
 ```
 
 ### How To Test Your Code
 1. You can test code by running the following commands within your shell:
-```
+```sh
 cd <insert directory of module here>
 make test
 ```
