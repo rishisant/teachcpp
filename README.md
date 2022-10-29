@@ -21,7 +21,7 @@ Here are a list of modules offered:
 ```sh
 cd <insert directory of module here>
 make
-./name_of_module <params>
+./driver <params>
 ```
 For example, in __Module 2: Functions Pt. 1__, assuming you are within the folder directory, run the following commands (specified in the driver.cpp file):
 ```sh
